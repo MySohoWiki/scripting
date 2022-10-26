@@ -23,5 +23,5 @@ begin
   Tbutton(btn).onClick:= @btnOkClick;//On button click call procedure to do jobs  
   frmStatus.addControl(btn, 'Αποδοχή');
   frmStatus.showmodal;  
-  frmStatus.free;
+  frmStatus.free
 end;
